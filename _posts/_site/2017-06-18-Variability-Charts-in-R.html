@@ -1,0 +1,30 @@
+<p>Variability Gauge Charts, (<a href="http://www.jmp.com/support/help/Variability_Gauge_Charts.shtml">example from JMP website</a>), are very useful to quickly compare the influence of multiple factor variables on a process. Those are one of the staple graphs for semiconductor engineers.</p>
+
+<p>Below is an attempt at creating a basic Variability Chart in R using <code class="highlighter-rouge">ggplot2</code> package. For simplicity, I have expanded the ggplot command into multiple sub-commands.</p>
+
+<div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="n">require</span><span class="p">(</span><span class="n">ggplot2</span><span class="p">)</span><span class="w">
+</span><span class="n">data</span><span class="p">(</span><span class="n">mpg</span><span class="p">)</span><span class="w">
+
+</span><span class="c1"># create a plot with Y and the first category variable. 
+</span><span class="n">p</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">ggplot</span><span class="p">(</span><span class="n">mpg</span><span class="p">,</span><span class="n">aes</span><span class="p">(</span><span class="n">drv</span><span class="p">,</span><span class="n">hwy</span><span class="p">))</span><span class="w">
+
+</span><span class="c1"># add the box plots
+</span><span class="n">p</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">p</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">geom_boxplot</span><span class="p">()</span><span class="w"> 
+
+</span><span class="c1"># apply the second category variable. 
+# choose nrow = 1 so that, we see all the plots in one row. 
+</span><span class="n">p</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">p</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">facet_wrap</span><span class="p">(</span><span class="o">~</span><span class="n">class</span><span class="p">,</span><span class="w"> </span><span class="n">nrow</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1</span><span class="w"> </span><span class="p">,</span><span class="w"> </span><span class="n">strip.position</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"bottom"</span><span class="w"> </span><span class="p">,</span><span class="w"> </span><span class="n">labeller</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"label_both"</span><span class="w"> </span><span class="p">)</span><span class="w">
+
+</span><span class="c1"># add jitter to the points so that they are all not clustered together. 
+</span><span class="n">p</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">p</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">geom_jitter</span><span class="p">(</span><span class="n">width</span><span class="o">=</span><span class="m">.2</span><span class="p">,</span><span class="w"> </span><span class="n">height</span><span class="o">=</span><span class="m">0</span><span class="p">)</span><span class="w">
+
+</span><span class="c1"># Change axis labels etc. 
+</span><span class="w">
+</span><span class="n">p</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">p</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">labs</span><span class="p">(</span><span class="n">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"Highway Mileage"</span><span class="p">,</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"Drive [4-Wheel / Forward / Reverse]"</span><span class="p">)</span><span class="w">
+
+</span><span class="c1"># display the plot
+</span><span class="n">p</span><span class="w">
+</span></code></pre>
+</div>
+
+<p><img src="Variability-Charts-in-R_files/figure-markdown_github/varibility_chart_example-1.png" alt="" /></p>

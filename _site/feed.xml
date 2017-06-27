@@ -5,9 +5,84 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 18 Jun 2017 15:32:17 -0700</pubDate>
-    <lastBuildDate>Sun, 18 Jun 2017 15:32:17 -0700</lastBuildDate>
+    <pubDate>Tue, 27 Jun 2017 00:00:21 -0700</pubDate>
+    <lastBuildDate>Tue, 27 Jun 2017 00:00:21 -0700</lastBuildDate>
     <generator>Jekyll v3.4.4</generator>
+    
+      <item>
+        <title>Notes: Basic Comparison of Emission Techniques for Defect Detection</title>
+        <description>&lt;style type=&quot;text/css&quot;&gt;
+table{
+    border-collapse: collapse;
+    border-spacing: 10 px 20 px;
+    border:1px solid #000000;
+}
+
+th{
+    border:1px solid #000000;
+}
+
+td{
+    border:1px solid #000000;
+}
+&lt;/style&gt;
+
+&lt;p&gt;Identifying and eliminating process defects or design weak spots is an important aspect of semiconductor device / integrated circuit technology development. Emission techniques are very useful identifying the location of these defects or weak spots in the device, and guiding us towards underlying root cause for the failures.&lt;/p&gt;
+
+&lt;p&gt;Emission Microscopy (EMMI) techniques broadly rely on detecting the light emitted by recombination of electron hole pairs. Hence, they are limited by various things such as the ability of equipment to detect the wavelength of light being emitted, whether the light being emitted is obstructed by other metal layers etc.&lt;/p&gt;
+
+&lt;p&gt;The following table compares some of the emission techniques, their applicability and limitations.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Process&lt;/th&gt;
+      &lt;th&gt;Principle&lt;/th&gt;
+      &lt;th&gt;Defects Detected&lt;/th&gt;
+      &lt;th&gt;Defects Not Detected&lt;/th&gt;
+      &lt;th&gt;Comments&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;EMMI / InGaAs EMMI&lt;/td&gt;
+      &lt;td&gt;Detection of light generated using Silicon or InGaAs CCD.&lt;/td&gt;
+      &lt;td&gt;Gate defects, Junction Leakage, Avalanche Leakage etc.&lt;/td&gt;
+      &lt;td&gt;Resistive Metal Shorts, Defects that don’t produce light.&lt;/td&gt;
+      &lt;td&gt;InGaAs EMMI is used for detecting lower energy emissions such as leakage currents&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;OBIRCH&lt;/td&gt;
+      &lt;td&gt;A laser beam scan is used to generate heat in the IC, causing a resistance change locally. Defective regions behave differently from other regions.&lt;/td&gt;
+      &lt;td&gt;Resistive shorts, metal bridges etc.&lt;/td&gt;
+      &lt;td&gt;? (TBD)&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Thermal EMMI&lt;/td&gt;
+      &lt;td&gt;Direct detection of thermal radiation emitted by the device during regular operation.&lt;/td&gt;
+      &lt;td&gt;Low resistance shorts (why ??)&lt;/td&gt;
+      &lt;td&gt;? (TBD)&lt;/td&gt;
+      &lt;td&gt;Thermal EMMI is useful for non invasive FA, as the package does not need to be removed.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;References:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.istgroup.com/english/3_service/03_01_list.php?MID=43&quot;&gt;IST Website&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Sun, 18 Jun 2017 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/device-notes/2017/06/18/Basic-Comparison-of-Emission-Techniques-For-Defect-Detection.html</link>
+        <guid isPermaLink="true">http://localhost:4000/device-notes/2017/06/18/Basic-Comparison-of-Emission-Techniques-For-Defect-Detection.html</guid>
+        
+        <category>notes</category>
+        
+        
+        <category>device-notes</category>
+        
+      </item>
     
       <item>
         <title>Notes: Variability Charts in R (similar to those in JMP)</title>
