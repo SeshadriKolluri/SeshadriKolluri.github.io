@@ -5,13 +5,19 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 27 Jun 2017 00:06:42 -0700</pubDate>
-    <lastBuildDate>Tue, 27 Jun 2017 00:06:42 -0700</lastBuildDate>
+    <pubDate>Tue, 27 Jun 2017 00:19:02 -0700</pubDate>
+    <lastBuildDate>Tue, 27 Jun 2017 00:19:02 -0700</lastBuildDate>
     <generator>Jekyll v3.4.4</generator>
     
       <item>
         <title>Notes: Basic Comparison of Emission Techniques for Defect Detection</title>
-        <description>&lt;style type=&quot;text/css&quot;&gt;
+        <description>&lt;p&gt;Identifying and eliminating process defects or design weak spots is an important aspect of semiconductor device / integrated circuit technology development. Emission techniques are very useful identifying the location of these defects or weak spots in the device, and guiding us towards underlying root cause for the failures.&lt;/p&gt;
+
+&lt;p&gt;Emission Microscopy (EMMI) techniques broadly rely on detecting the light emitted by recombination of electron hole pairs. Hence, they are limited by various things such as the ability of equipment to detect the wavelength of light being emitted, whether the light being emitted is obstructed by other metal layers etc.&lt;/p&gt;
+
+&lt;p&gt;The following table compares some of the emission techniques, their applicability and limitations.&lt;/p&gt;
+
+&lt;style type=&quot;text/css&quot;&gt;
 table{
     border-collapse: collapse;
     border-spacing: 10 px 20 px;
@@ -26,12 +32,6 @@ td{
     border:1px solid #000000;
 }
 &lt;/style&gt;
-
-&lt;p&gt;Identifying and eliminating process defects or design weak spots is an important aspect of semiconductor device / integrated circuit technology development. Emission techniques are very useful identifying the location of these defects or weak spots in the device, and guiding us towards underlying root cause for the failures.&lt;/p&gt;
-
-&lt;p&gt;Emission Microscopy (EMMI) techniques broadly rely on detecting the light emitted by recombination of electron hole pairs. Hence, they are limited by various things such as the ability of equipment to detect the wavelength of light being emitted, whether the light being emitted is obstructed by other metal layers etc.&lt;/p&gt;
-
-&lt;p&gt;The following table compares some of the emission techniques, their applicability and limitations.&lt;/p&gt;
 
 &lt;table&gt;
   &lt;thead&gt;

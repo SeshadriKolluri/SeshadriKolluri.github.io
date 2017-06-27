@@ -5,6 +5,13 @@ date:   2017-06-18
 categories: devicenotes
 tags: notes
 ---
+
+Identifying and eliminating process defects or design weak spots is an important aspect of semiconductor device / integrated circuit technology development. Emission techniques are very useful identifying the location of these defects or weak spots in the device, and guiding us towards underlying root cause for the failures. 
+
+Emission Microscopy (EMMI) techniques broadly rely on detecting the light emitted by recombination of electron hole pairs. Hence, they are limited by various things such as the ability of equipment to detect the wavelength of light being emitted, whether the light being emitted is obstructed by other metal layers etc. 
+
+The following table compares some of the emission techniques, their applicability and limitations. 
+
 <style type="text/css">
 table{
     border-collapse: collapse;
@@ -20,12 +27,6 @@ td{
     border:1px solid #000000;
 }
 </style>
-
-Identifying and eliminating process defects or design weak spots is an important aspect of semiconductor device / integrated circuit technology development. Emission techniques are very useful identifying the location of these defects or weak spots in the device, and guiding us towards underlying root cause for the failures. 
-
-Emission Microscopy (EMMI) techniques broadly rely on detecting the light emitted by recombination of electron hole pairs. Hence, they are limited by various things such as the ability of equipment to detect the wavelength of light being emitted, whether the light being emitted is obstructed by other metal layers etc. 
-
-The following table compares some of the emission techniques, their applicability and limitations. 
 
 | Process | Principle | Defects Detected | Defects Not Detected | Comments |
 | - | - | - | - | - |
