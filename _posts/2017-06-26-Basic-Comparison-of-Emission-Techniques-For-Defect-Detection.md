@@ -2,7 +2,7 @@
 layout: post
 title:  "Notes: Basic Comparison of Emission Techniques for Defect Detection"
 date:   2017-06-18
-categories: device-notes
+categories: devicenotes
 tags: notes
 ---
 <style type="text/css">
