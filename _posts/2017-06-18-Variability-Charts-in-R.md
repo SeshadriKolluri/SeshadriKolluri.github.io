@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Notes: Variability Charts in R (similar to those in JMP)"
+title:  "Variability Charts in R (similar to those in JMP)"
 date:   2017-06-18
 categories: rnotes
 tags: notes

@@ -3,17 +3,20 @@ layout: default
 ---
 
 <div class="home">
+  <p> I am Seshadri. I have a PhD in Electrical Engineering specializing in GaN Electronic Devices. I am currently working at <a href="http://epc-co.com/epc">Efficient Power Conversion</a>, in the GaN Device Engineering team.</p> 
 
-  <h1 class="page-heading">Recent Posts:</h1>
+  <p> You can find more information about me at my <a href= "https://www.linkedin.com/in/seshadri">LinkedIn Profile</a>, and some of publications at my <a href="https://scholar.google.com/citations?user=O-2tQYsAAAAJ&hl=en">Google Scholar Page</a>.</p>
+
+  <p> This is page primarily contains my notes on various topics.</p>
+
+  <h1 class="page-heading"><b><u>Recent Notes:</u></b></h1>
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
+        <h3>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-         {{ post.excerpt }}
+        </h3> 
       </li>
     {% endfor %}
   </ul>

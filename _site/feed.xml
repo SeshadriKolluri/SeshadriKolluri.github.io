@@ -5,12 +5,12 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 27 Jun 2017 00:19:02 -0700</pubDate>
-    <lastBuildDate>Tue, 27 Jun 2017 00:19:02 -0700</lastBuildDate>
-    <generator>Jekyll v3.4.4</generator>
+    <pubDate>Sat, 05 Aug 2017 09:47:32 -0700</pubDate>
+    <lastBuildDate>Sat, 05 Aug 2017 09:47:32 -0700</lastBuildDate>
+    <generator>Jekyll v3.5.0</generator>
     
       <item>
-        <title>Notes: Basic Comparison of Emission Techniques for Defect Detection</title>
+        <title>Basic Comparison of Emission Techniques for Defect Detection</title>
         <description>&lt;p&gt;Identifying and eliminating process defects or design weak spots is an important aspect of semiconductor device / integrated circuit technology development. Emission techniques are very useful identifying the location of these defects or weak spots in the device, and guiding us towards underlying root cause for the failures.&lt;/p&gt;
 
 &lt;p&gt;Emission Microscopy (EMMI) techniques broadly rely on detecting the light emitted by recombination of electron hole pairs. Hence, they are limited by various things such as the ability of equipment to detect the wavelength of light being emitted, whether the light being emitted is obstructed by other metal layers etc.&lt;/p&gt;
@@ -73,9 +73,9 @@ td{
   &lt;li&gt;&lt;a href=&quot;http://www.istgroup.com/english/3_service/03_01_list.php?MID=43&quot;&gt;IST Website&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 </description>
-        <pubDate>Sun, 18 Jun 2017 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/devicenotes/2017/06/18/Basic-Comparison-of-Emission-Techniques-For-Defect-Detection.html</link>
-        <guid isPermaLink="true">http://localhost:4000/devicenotes/2017/06/18/Basic-Comparison-of-Emission-Techniques-For-Defect-Detection.html</guid>
+        <pubDate>Sun, 25 Jun 2017 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/devicenotes/2017/06/25/Basic-Comparison-of-Emission-Techniques-For-Defect-Detection.html</link>
+        <guid isPermaLink="true">http://localhost:4000/devicenotes/2017/06/25/Basic-Comparison-of-Emission-Techniques-For-Defect-Detection.html</guid>
         
         <category>notes</category>
         
@@ -85,7 +85,7 @@ td{
       </item>
     
       <item>
-        <title>Notes: Variability Charts in R (similar to those in JMP)</title>
+        <title>Variability Charts in R (similar to those in JMP)</title>
         <description>&lt;p&gt;Variability Gauge Charts, (&lt;a href=&quot;http://www.jmp.com/support/help/Variability_Gauge_Charts.shtml&quot;&gt;example from JMP website&lt;/a&gt;), are very useful to quickly compare the influence of multiple factor variables on a process. Those are one of the staple graphs for semiconductor engineers.&lt;/p&gt;
 
 &lt;p&gt;Below is an attempt at creating a basic Variability Chart in R using &lt;code class=&quot;highlighter-rouge&quot;&gt;ggplot2&lt;/code&gt; package. For simplicity, I have expanded the ggplot command into multiple sub-commands.&lt;/p&gt;
