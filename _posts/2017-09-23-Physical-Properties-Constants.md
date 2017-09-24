@@ -8,8 +8,6 @@ tags: notes
 
 #### Some basic tables comparing various physical properties of Si, SiO2, GaN etc. for reference.
 
-
-
 | Property | Symbol | Si | SiO<sub>2</sub> | GaN | Units |
 | :- | :-: | - | - | - | :-: |
 | Crystal Structure| | Diamond | Amorphous | Wurtzite | |
@@ -18,3 +16,5 @@ tags: notes
 | Hole Mobility | $$\mu_{p}$$| 450 | 0| 30 | cm<sup>2</sup>/V.s |
 | Breakdown Electric Field | $$E_{crit}$$| $$0.3x10^6$$ | $$>10^7$$ | $$3x10^6$$ | V/cm |
 {:.mbtablestyle}
+
+**Note:**  Properties are at room temperature. 
