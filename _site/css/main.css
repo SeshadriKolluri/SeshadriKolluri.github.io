@@ -143,6 +143,15 @@ pre {
     fill: #828282; }
 
 /**
+* Tables
+*/
+.mbtablestyle {
+  border-collapse: collapse; }
+  .mbtablestyle > table, .mbtablestyle td, .mbtablestyle th {
+    padding: 10px;
+    border: 1px solid black; }
+
+/**
  * Site header
  */
 .site-header {

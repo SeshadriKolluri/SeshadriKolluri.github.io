@@ -5,9 +5,79 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 05 Aug 2017 09:47:32 -0700</pubDate>
-    <lastBuildDate>Sat, 05 Aug 2017 09:47:32 -0700</lastBuildDate>
+    <pubDate>Sun, 24 Sep 2017 09:30:57 -0700</pubDate>
+    <lastBuildDate>Sun, 24 Sep 2017 09:30:57 -0700</lastBuildDate>
     <generator>Jekyll v3.5.0</generator>
+    
+      <item>
+        <title>Physical Properties of Si, SiO2, GaN</title>
+        <description>&lt;h4 id=&quot;some-basic-tables-comparing-various-physical-properties-of-si-sio2-gan-etc-for-reference&quot;&gt;Some basic tables comparing various physical properties of Si, SiO2, GaN etc. for reference.&lt;/h4&gt;
+
+&lt;table class=&quot;mbtablestyle&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Property&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Symbol&lt;/th&gt;
+      &lt;th&gt;Si&lt;/th&gt;
+      &lt;th&gt;SiO&lt;sub&gt;2&lt;/sub&gt;&lt;/th&gt;
+      &lt;th&gt;GaN&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Units&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Crystal Structure&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td&gt;Diamond&lt;/td&gt;
+      &lt;td&gt;Amorphous&lt;/td&gt;
+      &lt;td&gt;Wurtzite&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Energy Band Gap&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;E_g&lt;/script&gt;&lt;/td&gt;
+      &lt;td&gt;1.12&lt;/td&gt;
+      &lt;td&gt;8 - 9&lt;/td&gt;
+      &lt;td&gt;3.42&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;eV&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Electron Mobility&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\mu_{n}&lt;/script&gt;&lt;/td&gt;
+      &lt;td&gt;1400&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;1500&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;cm&lt;sup&gt;2&lt;/sup&gt;/V.s&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Hole Mobility&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\mu_{p}&lt;/script&gt;&lt;/td&gt;
+      &lt;td&gt;450&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;30&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;cm&lt;sup&gt;2&lt;/sup&gt;/V.s&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Breakdown Electric Field&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;E_{crit}&lt;/script&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;script type=&quot;math/tex&quot;&gt;0.3x10^6&lt;/script&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;script type=&quot;math/tex&quot;&gt;&gt;10^7&lt;/script&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;script type=&quot;math/tex&quot;&gt;3x10^6&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;V/cm&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Sat, 23 Sep 2017 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/devicenotes/2017/09/23/Physical-Properties-Constants.html</link>
+        <guid isPermaLink="true">http://localhost:4000/devicenotes/2017/09/23/Physical-Properties-Constants.html</guid>
+        
+        <category>notes</category>
+        
+        
+        <category>devicenotes</category>
+        
+      </item>
     
       <item>
         <title>Basic Comparison of Emission Techniques for Defect Detection</title>
