@@ -3,7 +3,7 @@ layout: page
 title: Notes
 permalink: /notes/
 ---
-### Some of my recent notes on various topics, that I am learning or practicing. 
+#### Some of my recent notes on various topics, that I am learning or practicing. 
 
 <ul class="post-list">
 {% for post in site.posts %}
