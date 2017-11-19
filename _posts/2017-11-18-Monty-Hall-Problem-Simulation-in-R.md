@@ -5,7 +5,7 @@ date:   2017-11-18
 categories: rnotes
 tags: notes
 ---
-I first learn about ([Monty Hall Problem](https://en.wikipedia.org/wiki/Monty_Hall_problem)) a few years ago, but never got around to understand how its solution worked. Today, I stumbled on a reference to it again, and wanted understand it intuitively, without googling the solutions. Here is what I got.
+I first learnt about ([Monty Hall Problem](https://en.wikipedia.org/wiki/Monty_Hall_problem)) a few years ago, but never got around to understand how its solution worked. Today, I stumbled up on a reference to it again, and wanted to understand it intuitively, without googling the solutions. Here is what I got.
 
 ### Problem Description:
 
