@@ -31,8 +31,8 @@ I took a "frequentist" approach, and tried to understand the outcomes for the tw
 -   **Strategy 1: When we don't change the choice**, we already estimated that the Door is expected to contain the car for 333 out of 999 times, so the winning probability is 1/3.
 -   **Strategy 2: When we change the choice**, we always choose the remaining door as our final choice.
     -   In this case, the counting becomes easier if we imagine both Door 2 and Door 3 as one bigger unit, and we are changing our choice ot whiever door is remaining in this unit, after the host opened one dooor in this unit and revealed the goat.
-    -   For the total 999 runs, the bigger unit (2 doors together) is expected to contain 2*666 goats, and 2*333 goats.
-    -   If the host opens one of the doors in the unit, and lets out a goat in each round, he would have let out 999 goats in total. So, by choosing the other door, we are choosing among 2*666 - 999 = 333 goats, and 2*333 = 666 cars. Hence, the winning probability in this case is 666 / 999 = 2/3.
+    -   For the total 999 runs, the bigger unit (2 doors together) is expected to contain 2 x 666 goats, and 2 x 333 goats.
+    -   If the host opens one of the doors in the unit, and lets out a goat in each round, he would have let out 999 goats in total. So, by choosing the other door, we are choosing among 2 x 666 - 999 = 333 goats, and 2 x 333 = 666 cars. Hence, the winning probability in this case is 666 / 999 = 2/3.
 -   Hence, we can see that we are better off changing the choice to other door (the one other than our initial choice, and the one that the host opened). The winning probability in that case increases from 33% to 66%.
 
 ### Simualtion of the problem in R:
