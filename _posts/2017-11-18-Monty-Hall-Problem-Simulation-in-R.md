@@ -39,7 +39,7 @@ I took a "frequentist" approach, and tried to understand the outcomes for the tw
 
 To verify the logic, we will try to simulate the problem in R and see if are really better off by always changing our choice.
 
-``` r
+{% highlight r%}
 library(plyr)
 
 # number of runs
@@ -56,7 +56,7 @@ names(experiment_runs) <- c("Door1", "Door2", "Door3")
 
 # Display the the first few rows of the dataframe, showing random distribution of the cars
 head(experiment_runs)
-```
+{% endhighlight %}
 
     ##   Door1 Door2 Door3
     ## 1   car  goat  goat
@@ -66,7 +66,7 @@ head(experiment_runs)
     ## 5  goat  goat   car
     ## 6   car  goat  goat
 
-``` r
+{% highlight r%}
 # Choose initial choice at random
 initial_choices <- sample(1:3,n,replace = TRUE)
 
@@ -84,15 +84,15 @@ alternate_choices <- mapply(function(door_opened,initial_choice)
 # Probability of winning with original choice
 print(paste0("Probability of winning with original choice is: ", 
              format(sum(car_positions == initial_choices)/n, digits = 3)))
-```
+{% endhighlight %}
 
     ## [1] "Probability of winning with original choice is: 0.337"
 
-``` r
+{% highlight r%}
 # Probability of winning after changing the choice after the host reveals a door with a goat
 print(paste0("Probability of winning after changing the choice is: ", 
              format(sum(car_positions == alternate_choices)/n, digits = 3)))
-```
+{% endhighlight %}
 
     ## [1] "Probability of winning after changing the choice is: 0.663"
 

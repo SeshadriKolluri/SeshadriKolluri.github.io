@@ -10,7 +10,7 @@ Variability Gauge Charts, ([example from JMP website](http://www.jmp.com/support
 
 Below is an attempt at creating a basic Variability Chart in R using `ggplot2` package. For simplicity, I have expanded the ggplot command into multiple sub-commands.
 
-``` r
+{% highlight r%}
 require(ggplot2)
 data(mpg)
 
@@ -33,6 +33,6 @@ p <- p + labs(y = "Highway Mileage", x = "Drive [4-Wheel / Forward / Reverse]")
 
 # display the plot
 p
-```
+{% endhighlight %}
 
 ![](Variability-Charts-in-R_files/figure-markdown_github/varibility_chart_example-1.png)
