@@ -2,7 +2,7 @@
 layout: post
 title:  "Open Source Semiconductor Datasets"
 date:   2018-08-18
-categories: semiconductor, data-science
+categories: semiconductor data-science
 tags: notes
 ---
 ## Some open-source semiconductor datasets for future reference
