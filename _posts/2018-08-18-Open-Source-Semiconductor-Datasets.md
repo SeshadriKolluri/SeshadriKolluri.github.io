@@ -10,3 +10,4 @@ tags: notes
 *  [From CMU: A wafer data base with good / bad wafers, and sequence of etch process measurements](https://www.cs.cmu.edu/~bobski/data/data.html)
  * [NIST Database of the Thermophysical Properties of Gases Used in the Semiconductor Industry](https://catalog.data.gov/dataset/nist-database-of-the-thermophysical-properties-of-gases-used-in-the-semiconductor-industry)
  * [UCI SECOM Dataset: Process Monitoring Signlas used to predict low yield wafers](http://archive.ics.uci.edu/ml/datasets/secom)
+ * [SETFI Manufacturing data: Semiconductor Tool Fault Isolation](http://www.causality.inf.ethz.ch/repository.php?id=19)
