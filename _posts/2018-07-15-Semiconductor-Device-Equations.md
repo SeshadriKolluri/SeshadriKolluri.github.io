@@ -17,6 +17,6 @@ tags: notes
 | $$ V_{bi} = \frac{kT}{q} ln\Big(\frac{N_a N_d}{n_i^2}\Big) $$ | Built-in potential of a p-n junction | 
 | $$ W_d = \sqrt{\frac{2\epsilon_{Si} V_{bi} (N_a+N_d) }{q N_a N_d}} $$ | Depletion width in a p-n juntion | 
 | $$ J_{b-b} = \infty exp(-E_g^{3/2})$$ | | 
-| $$ I_{ds} = \mu_{eff} C_{ox} \frac{W}{L} (V_{gs} - V_{t}) V_{ds}$$ | MOSFET I-V in Linear Region|
-| $$ V_{t} = V_{fb} + 2 \psi_{B} + \frac{\sqrt{4\epsilon_{Si} q N_{a} \psi_{B}}}{C_{ox}} $$| Threshold Voltage Formula|	
+| $$ I_{ds} = \mu_{eff} C_{ox} \frac{W}{L} (V_{gs} - V_{t}) V_{ds} \\ I_{ds} =  \mu_{eff} C_{ox} \frac{W}{L} \big((V_{gs} - V_{t}) V_{ds}) - m \frac{V_{ds}^2}{2}\big)$$ | MOSFET I-V|
+| $$ V_{t} = V_{fb} + 2 \psi_{B} + \frac{\sqrt{2 \epsilon_{Si} q N_{a} (2*\psi_{B} - V_{bs})}}{C_{ox}} $$| Threshold Voltage Formula|	
 {:.mbtablestyle}
