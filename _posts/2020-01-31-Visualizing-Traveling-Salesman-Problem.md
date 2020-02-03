@@ -2,6 +2,7 @@
 layout: post
 title:  "Traveling Salesman Problem - Understanding Through Visualization"
 date:   2020-01-31
+categories: rnotes
 tags: notes
 ---
 
